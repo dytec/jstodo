@@ -51,12 +51,15 @@ function remove() {
 }
 
 function clear() {
-  localStorage.clear();
+  var result = confirm("Are you sure?");
+  if (result) {
+    localStorage.clear();
 
-  show();
+    show();
 
-  document.getElementById('task').focus();
-
+    document.getElementById('task').focus();
+  }
+  
   return false;
 }
 

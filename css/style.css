@@ -1,4 +1,47 @@
 body {
   font-family: "Lato", Helvetica, sans-serif;
-  font-size: 18px;
+  font-size: 24px;
+}
+
+button {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 24px;
+  color: #454545;
+  background-color: transparent;
+  border: 0;
+  margin: 5px;
+}
+
+li {
+  border-bottom: 1px solid #fcfcfc;
+}
+
+input {
+  font-family: "Lato", Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 28px;
+  color: #454545;
+}
+
+hr {
+  border: 1px solid #fcfcfc;
+}
+
+.container {
+  display: flex;
+}
+
+.button-add {
+  font-size: 24px;
+  color: #03B388;
+}
+
+.button-remove {
+  font-size: 22px;
+  color: #EB4D5C;
+}
+
+.button-clear {
+  font-size: 24px;
+  color: #454545;
 }
